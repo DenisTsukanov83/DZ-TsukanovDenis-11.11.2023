@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h3>Задача №1</h3>
+    <p>
+        Реализуйте класс Worker (Работник), который будет иметь следующие свойства: name (имя), surname (фамилия), rate
+        (ставка за день работы), days (количество отработанных дней). Также класс должен иметь метод getSalary(),
+        который будет выводить зарплату работника. Зарплата - это произведение (умножение) ставки rate на количество
+        отработанных дней days. И метод getFullName() - имя и фамиля работника.
+    </p>
+    <h3>Задача №2</h3>
+    <p>
+        Напишите новый класс Boss, этот класс наследуется от класса Worker и прошлого задания. Появляется новые свойство: workers - количество работников. И зарплата считается по другому: произведение (умножение) ставки rate на количество отработанных дней и на количество работников.
+    </p>
+    <div class="task task-1">
+        <div class="props">
+            <div class="sign">Введите имя:</div>
+            <div>
+                <input type="text" class="inp name" value="">
+            </div>
+            <div class="sign">Введите фамилию:</div>
+            <div>
+                <input type="text" class="inp surname" value="">
+            </div>
+            <div class="sign">Введите зарплату:</div>
+            <div>
+                <input type="number" class="inp salary" value="">
+            </div>
+            <div class="sign">Введите количество дней:</div>
+            <div>
+                <input type="number" class="inp days" value="">
+            </div>
+        </div>
+        <div class="btns">
+            <div class="btn1">Добавить работника(Задача №1)</div>
+            <div class="btn2">Посчитать работников(Задача №2)</div>
+        </div>
+        <div class="res"></div>
+    </div>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

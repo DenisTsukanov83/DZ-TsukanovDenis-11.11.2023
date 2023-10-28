@@ -1,0 +1,86 @@
+.task-1 .props {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: max-content;
+}
+.res {
+    border: 2px solid rgb(169, 169, 253);
+    border-radius: 5px;
+    min-width: 30px;
+    height: 28px;
+    width: max-content;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.inp {
+    border: 2px solid rgb(169, 169, 253);
+    border-radius: 5px;
+    width: 30px;
+    padding: 6px 10px;
+}
+
+.inp:focus {
+    border: 2px solid rgb(169, 169, 253);
+    border-radius: 5px;
+    min-width: 30px;
+    padding: 6px 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.btns {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.btn1, .btn2 {
+    width: 300px;
+    height: 30px;
+    border: 2px solid rgb(169, 169, 253);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    position: relative;
+}
+
+.btn1:hover, .btn2:hover {
+    background-color: rgb(185, 185, 185);
+    /* color: black; */
+}
+
+.btn:hover {
+    background-color: rgb(203, 203, 203);
+}
+
+.btn-sign {
+    width: max-content;
+    padding: 0 5px;
+}
+
+.task-5 .btn-sign {
+    width: 20px;
+    padding: 0 5px;
+}
+
+.active {
+    background-color: rgb(203, 203, 203);
+}
+
+.task-1 .res {
+    width: max-content;
+    min-height: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    height: max-content;
+}
+
